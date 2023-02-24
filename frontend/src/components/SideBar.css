@@ -1,0 +1,36 @@
+.SideBar {
+  text-align: center;
+}
+.Bar {
+  background-Color: rgba(250, 250, 250, 1);
+  /* box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  display: flex;
+  position: relative;
+  isolation: isolate;
+  flex-Direction: column;
+  padding: 0px;
+  justify-content: space-between;
+  box-Sizing: border-box;
+  width: fit-content;
+  height: 100vh;
+  align-items: center;
+}
+
+.Icon {
+  display: flex;
+  flex-Direction: column;
+  padding: 10px;
+  align-items: center;
+  color: rgba(29, 78, 216, 1);
+  font-Style: normal;
+  font-weight:300;
+  font-Size: 15px;
+}
+
+.TopIcons {
+  display: flex;
+  position: relative;
+  isolation: isolate;
+  flex-Direction: column;
+  justify-self: flex-start;
+}
